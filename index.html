@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Curso de HTML, CSS e JS</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script type='text/javascript' src='js/action.js'></script>
+  </head>
+  <body>
+    <div class="site">
+      <div class="banner">
+        <img src="imagens/logo-virgnet.png">
+      </div>
+      <div class="corpo">
+        <div class="menu">
+          <div class="titulo">Menu</div>
+          <ul>
+            <li>Início</li>
+            <li><a href="paginas/apresentacao.html">Apresentação</a></li>
+            <li><a href="paginas/curso-html.html">HTML</a></li>
+            <li><a href="paginas/curso-css.html">CSS</a></li>
+            <li><a href="paginas/curso-js.html">JavaScript</a></li>
+          </ul>
+        </div>
+        <div class="conteudo">
+          <div class="texto">
+              <h1>Curso de HTML, CSS e JS</h1>
+              <p>Seja bem vindo ao curso de <strong>HTML, CSS e JS</strong>, espero que você goste!</p>
+              <h2>Exemplos de <i>JavaScript</i></h2>
+              <p><a onclick="mostrarMensagem('Mensagem de teste!')">Clique para ver mensagem de alerta</a></p>
+              <p><a onclick="tamanhoFont('mais')">Clique para aumentar a fonte</a></p>
+              <p><a onclick="tamanhoFont('menos')">Clique para diminuir a fonte</a></p>
+              <p><a onclick="verLoading()">Clique para ver o loading...</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="rodape">
+        VIRGNET - Desenvolvendo na realidade<br>
+        <a target="_blank" href="http://virgnet.com.br">virgnet.com.br</a>
+      </div>
+    </div>
+    <div class="loading">
+      <img src="imagens/loader.gif">
+    </div>
+  </body>
+</html>
